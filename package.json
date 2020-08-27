@@ -1,0 +1,29 @@
+{
+  "name": "v2-hot",
+  "version": "1.0.0",
+  "description": "v2ex hot posts",
+  "main": "index.js",
+  "author": {
+		"name": "Leo",
+		"email": "leoaee@gmail.com",
+		"url": "https://xiaozhu.dev"
+	},
+	"scripts": {
+		"postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "v2ex",
+    "hot",
+    "posts"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.10.0"
+  }
+}
